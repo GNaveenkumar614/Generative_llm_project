@@ -1,5 +1,5 @@
 # LLM-based Dockerfile Generator
-This project uses Large Language Models (LLMs) — hosted (via [Google Gemini 2.0 flash ](https://aistudio.google.com/prompts/new_chat)) — to generate custom Dockerfiles based on your application language and requirements.
+This project uses Large Language Model (LLM) — hosted (via [Google Gemini 2.0 flash ](https://aistudio.google.com/prompts/new_chat)) — to generate custom Dockerfiles based on your application language and requirements.
 
 # Hosted LLM with Google Gemini 2.0 flash
 Google Gemini 2.0 Flash, that likely means  leveraging Google's latest Gemini API offering, which includes a lighter, faster version optimized for performance — great for low-latency applications.
@@ -40,6 +40,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 3.Installation steps\
    3.1 for Linux
    ```
+   # to install the requirements or the sam can be installed manually
    bash pip3 install -r requirements.txt
    export GOOGLE_AI_STUDIO_API_KEY="<your_api_key_paste_here>"
    pip3 install --upgrade google-generativeai
