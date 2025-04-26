@@ -40,10 +40,12 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 3.Installation steps\
    3.1 for Linux
    ```
-   # to install the requirements or the sam can be installed manually
+   # to install the requirements or the sam can be installed manually 
    bash pip3 install -r requirements.txt
+   # to declare API key and upgrade
    export GOOGLE_AI_STUDIO_API_KEY="<your_api_key_paste_here>"
    pip3 install --upgrade google-generativeai
+   #to run the python promt file
    python3 dockerfile_generator-gemini.py
    deactivate
    #after completion stop the venv
@@ -52,7 +54,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
    bash pip3 install -r requirements.txt
    $env:GOOGLE_AI_STUDIO_API_KEY="<your_api_key_paste_here>"
-   pip3 install --upgrade google-generativeai
+   pip install --upgrade google-generativeai
    python dockerfile_generator-gemini.py
    deactivate
    #after completion stop the venv
