@@ -13,7 +13,7 @@ sudo apt install python3.12-venv
 python3 -m venv venv
 source venv/bin/activate
 ```
-if python3 doesn't works for you check the version and use \
+if python3 doesn't works for you check the version and use 
 ```
 python -m venv venv
 ```
